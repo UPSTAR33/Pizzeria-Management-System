@@ -1,0 +1,70 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url('https://i.ibb.co/7NRHMtf/LOGIN-bg.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.log {
+  color: aliceblue;
+  font-family: Lucida Console Regular;
+  font-size: 18px;
+}
+.log2 {
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 25px;
+}
+.log3 {
+  color: aliceblue;
+  font-family: Lucida Console Regular;
+  font-size: 18px;
+}
+.h1 {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60px;
+}
+input[type='text'] {
+  width: 30%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-bottom-color: lightgreen;
+  color: lightcoral;
+  font-family: Gabriola Regular;
+  font-size: 20px;
+  border-bottom-style: ridge;
+}
+input[type='number'] {
+  width: 7%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-bottom-color: lightgreen;
+  color: lightcoral;
+  font-family: Arial;
+  font-size: 20px;
+  border-bottom-style: ridge;
+}
+
+input[type='password'] {
+  width: 30%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-bottom-color: lightgreen;
+  color: lightcoral;
+  font-family: monospace;
+  font-size: 18px;
+  border-bottom-style: ridge;
+}

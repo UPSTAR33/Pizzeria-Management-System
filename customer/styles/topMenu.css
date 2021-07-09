@@ -1,0 +1,13 @@
+.greeting {
+  position: relative;
+  top: 2%;
+  left: 1%;
+  color: salmon;
+  font-family: Lucida Console Regular;
+  font-size: 18px;
+}
+.logoutbtn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}

@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url('https://i.ibb.co/7NRHMtf/LOGIN-bg.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.log {
+  color: aliceblue;
+  font-family: Gabriola Regular;
+  font-size: 28px;
+}
+.h1 {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+
+  font-size: 55px;
+}
+input[type='email'] {
+  width: 30%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-bottom-color: lightgreen;
+  color: lightgreen;
+  font-family: Gabriola Regular;
+  font-size: 20px;
+  border-bottom-style: ridge;
+}
+input[type='password'] {
+  width: 30%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-bottom-color: lightgreen;
+  color: lightgreen;
+  font-family: monospace;
+  font-size: 18px;
+  border-bottom-style: ridge;
+}
